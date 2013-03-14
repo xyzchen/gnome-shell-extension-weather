@@ -55,16 +55,15 @@ Install *gnome-shell-extension-weather* with apt-rpm from Sisyphus:
 ## Generic
 
 Make sure you have the following dependencies installed:
-* *dconf*,
 * *gettext*,
 * *pkg-config*,
 * *git*,
 * *glib2*,
+* *glib2-devel*,
 * *gnome-common*,
 * *autoconf*,
 * *automake*,
-* *intltool*,
-* *gnome-tweak-tool*.
+* *intltool*.
 
 Run the following commands:
 
