@@ -10,13 +10,14 @@ Currently, the weather report, including forecasts for today and tomorrow, is fe
 
 # Installation
 
-After the installation, restart GNOME Shell (`Alt`+`F2`, `r`, `Enter`) and enable the extension through *gnome-tweak-tool*.
+## Through extensions.gnome.org (Local installation)
 
-## Through extensions.gnome.org
-
-[Weather](https://extensions.gnome.org/extension/613/weather/)
+Go on the [Weather extension page](https://extensions.gnome.org/extension/613/weather/) on extensions.gnome.org, click on the switch ("OFF" => "ON"), click on the install button.
+That's it !
 
 ## Through a package manager
+
+After the installation, restart GNOME Shell (`Alt`+`F2`, `r`, `Enter`) and enable the extension through *gnome-tweak-tool*.
 
 ### [Ubuntu, Mint, Debian and derivatives](https://launchpad.net/~gnome-shell-extensions/+archive/ppa/+packages)
 
@@ -52,7 +53,7 @@ Install *gnome-shell-extension-weather* with apt-rpm from Sisyphus:
 	sudo apt-get update
 	sudo apt-get install gnome-shell-extension-weather
 	
-## Generic
+## Generic (Local installation)
 
 Make sure you have the following dependencies installed:
 * *gettext*,
@@ -71,6 +72,8 @@ Run the following commands:
 	cd ~ && git clone git://github.com/Neroth/gnome-shell-extension-weather.git
 	cd ~/gnome-shell-extension-weather
 	./autogen.sh && make local-install
+	
+Restart GNOME Shell (`Alt`+`F2`, `r`, `Enter`) and enable the extension through *gnome-tweak-tool*.
 
 ----
 
