@@ -45,6 +45,12 @@ Download the package from AUR, make and install it:
 	wget https://aur.archlinux.org/packages/gn/gnome-shell-extension-weather-git/gnome-shell-extension-weather-git.tar.gz
 	tar xvzf gnome-shell-extension-weather-git.tar.gz
 	cd gnome-shell-extension-weather-git && makepkg -si
+	
+### [Debian (Sid)](http://packages.debian.org/sid/gnome-shell-extension-weather)
+
+Package is in the Debian Sid (unstable) repositories: **Use it at your own risk!**.
+
+	sudo apt-get install gnome-shell-extension-weather
 
 ### [ALT Linux](http://packages.altlinux.org/en/Sisyphus/srpms/gnome-shell-extension-weather)
 
