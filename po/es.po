@@ -5,12 +5,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 3.0.1\n"
+"Project-Id-Version: 3.0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-11 00:47+0100\n"
-"PO-Revision-Date: 2012-05-13 22:38+0100\n"
-"Last-Translator: Christian METZLER <neroth@xeked.com>\n"
-"Language-Team: Español; Castellano <zodiac_es@yahoo.es>\n"
+"PO-Revision-Date: 2013-03-27 16:24-0300\n"
+"Last-Translator: Cristian Beroiza <cberoiza@gmail.com>\n"
+"Language-Team:  Español; Castellano <zodiac_es@yahoo.es>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,24 +23,24 @@ msgstr "..."
 
 #: ../src/extension.js:208
 msgid "Locations"
-msgstr ""
+msgstr "Lugares"
 
 #: ../src/extension.js:212
 msgid "Reload Weather Information"
-msgstr ""
+msgstr "Recargar información del clima"
 
 #: ../src/extension.js:216
 msgid "Weather Settings"
-msgstr ""
+msgstr "Configuraciones del clima"
 
 #: ../src/extension.js:242
 #, python-format
 msgid "Schema \"%s\" not found."
-msgstr ""
+msgstr "El esquema \"%s\" no ha sido encontrado."
 
 #: ../src/extension.js:523 ../src/prefs.js:756
 msgid "Invalid city"
-msgstr ""
+msgstr "Ciudad inválida"
 
 #: ../src/extension.js:738
 msgid "Tornado"
@@ -68,15 +68,15 @@ msgstr "Lluvia y nieve"
 
 #: ../src/extension.js:750
 msgid "Mixed rain and sleet"
-msgstr "Granizo y lluvia"
+msgstr "Lluvia y aguanieve"
 
 #: ../src/extension.js:752
 msgid "Mixed snow and sleet"
-msgstr "Granizo y nieve"
+msgstr "Nieve y aguanieve"
 
 #: ../src/extension.js:754
 msgid "Freezing drizzle"
-msgstr "Lluvia con heladas"
+msgstr "Llovizna con heladas"
 
 #: ../src/extension.js:756
 msgid "Drizzle"
@@ -88,19 +88,19 @@ msgstr "Lluvia con heladas"
 
 #: ../src/extension.js:760 ../src/extension.js:762
 msgid "Showers"
-msgstr "Lluvias"
+msgstr "Chubascos"
 
 #: ../src/extension.js:764
 msgid "Snow flurries"
-msgstr "Nieve"
+msgstr "Copos de nieve"
 
 #: ../src/extension.js:766
 msgid "Light snow showers"
-msgstr "Nieve"
+msgstr "Nevadas suaves"
 
 #: ../src/extension.js:768
 msgid "Blowing snow"
-msgstr "Nieve"
+msgstr "Nieve y viento"
 
 #: ../src/extension.js:770
 msgid "Snow"
@@ -112,7 +112,7 @@ msgstr "Granizo"
 
 #: ../src/extension.js:774
 msgid "Sleet"
-msgstr "Granizo"
+msgstr "Aguanieve"
 
 #: ../src/extension.js:776
 msgid "Dust"
@@ -148,7 +148,7 @@ msgstr "Nublado"
 
 #: ../src/extension.js:793
 msgid "Mostly cloudy"
-msgstr "Muy nublado"
+msgstr "Mayormente nublado"
 
 #: ../src/extension.js:796 ../src/extension.js:822
 msgid "Partly cloudy"
@@ -176,11 +176,11 @@ msgstr "Caluroso"
 
 #: ../src/extension.js:809
 msgid "Isolated thunderstorms"
-msgstr "Tormentas locales"
+msgstr "Tormentas aisladas"
 
 #: ../src/extension.js:812
 msgid "Scattered thunderstorms"
-msgstr "Tormentas aisladas"
+msgstr "Tormentas eléctricas aisladas"
 
 #: ../src/extension.js:814
 msgid "Scattered showers"
@@ -188,7 +188,7 @@ msgstr "Lluvias aisladas"
 
 #: ../src/extension.js:816 ../src/extension.js:820
 msgid "Heavy snow"
-msgstr "Fuerte nevada"
+msgstr "Fuertes nevadas"
 
 #: ../src/extension.js:818
 msgid "Scattered snow showers"
@@ -200,7 +200,7 @@ msgstr "Tormentas"
 
 #: ../src/extension.js:826
 msgid "Snow showers"
-msgstr "Nevadas"
+msgstr "Chubascos de nieve"
 
 #: ../src/extension.js:828
 msgid "Isolated thundershowers"
@@ -212,51 +212,51 @@ msgstr "No disponible"
 
 #: ../src/extension.js:878
 msgid "Calm"
-msgstr ""
+msgstr "Calmado"
 
 #: ../src/extension.js:881
 msgid "Light air"
-msgstr ""
+msgstr "Viento suave"
 
 #: ../src/extension.js:884
 msgid "Light breeze"
-msgstr ""
+msgstr "Ventisca suave"
 
 #: ../src/extension.js:887
 msgid "Gentle breeze"
-msgstr ""
+msgstr "Ventisca suave"
 
 #: ../src/extension.js:890
 msgid "Moderate breeze"
-msgstr ""
+msgstr "Ventisca moderada"
 
 #: ../src/extension.js:893
 msgid "Fresh breeze"
-msgstr ""
+msgstr "Ventisca suave"
 
 #: ../src/extension.js:896
 msgid "Strong breeze"
-msgstr ""
+msgstr "Ventisa fuerte"
 
 #: ../src/extension.js:899
 msgid "Moderate gale"
-msgstr ""
+msgstr "Ventarrón moderado"
 
 #: ../src/extension.js:902
 msgid "Fresh gale"
-msgstr ""
+msgstr "Ventarrón suave"
 
 #: ../src/extension.js:905
 msgid "Strong gale"
-msgstr ""
+msgstr "Ventarrón fuerte"
 
 #: ../src/extension.js:908
 msgid "Storm"
-msgstr ""
+msgstr "Tormenta"
 
 #: ../src/extension.js:911
 msgid "Violent storm"
-msgstr ""
+msgstr "Tormenta violenta"
 
 #: ../src/extension.js:919
 msgid "Sunday"
@@ -288,44 +288,44 @@ msgstr "Sábado"
 
 #: ../src/extension.js:926
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: ../src/extension.js:926
 msgid "NE"
-msgstr ""
+msgstr "NE"
 
 #: ../src/extension.js:926
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: ../src/extension.js:926
 msgid "SE"
-msgstr ""
+msgstr "SE"
 
 #: ../src/extension.js:926
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: ../src/extension.js:926
 msgid "SW"
-msgstr ""
+msgstr "SO"
 
 #: ../src/extension.js:926
 msgid "W"
-msgstr ""
+msgstr "O"
 
 #: ../src/extension.js:926
 msgid "NW"
-msgstr ""
+msgstr "NO"
 
 #: ../src/extension.js:1208 ../src/extension.js:1337
 msgid "Yesterday"
-msgstr ""
+msgstr "Ayer"
 
 #: ../src/extension.js:1210 ../src/extension.js:1339
 #, python-format
 msgid "%s days ago"
-msgstr ""
+msgstr "%s dias atrás"
 
 #: ../src/extension.js:1331
 msgid "Today"
@@ -338,31 +338,31 @@ msgstr "Mañana"
 #: ../src/extension.js:1335
 #, python-format
 msgid "In %s days"
-msgstr ""
+msgstr "En %s dias"
 
 #: ../src/extension.js:1371
 msgid "Loading current weather ..."
-msgstr "Cargando la meteorología actual..."
+msgstr "Cargando clima actual ..."
 
 #: ../src/extension.js:1372
 msgid "Loading future weather ..."
-msgstr "Cargando la meteorología futura..."
+msgstr "Cargando clima futuro ..."
 
 #: ../src/extension.js:1405
 msgid "Loading ..."
-msgstr "Cargando..."
+msgstr "Cargando ..."
 
 #: ../src/extension.js:1408
 msgid "Please wait"
-msgstr "Espere un momento"
+msgstr "Porfavor espere"
 
 #: ../src/extension.js:1453
 msgid "Feels like:"
-msgstr ""
+msgstr "Sensación:"
 
 #: ../src/extension.js:1455
 msgid "Humidity:"
-msgstr "Humedad"
+msgstr "Humedad:"
 
 #: ../src/extension.js:1457
 msgid "Pressure:"
@@ -374,58 +374,57 @@ msgstr "Viento:"
 
 #: ../src/prefs.js:124
 msgid "Temperature Unit"
-msgstr "Temperatura:"
+msgstr "Unidad de temperatura"
 
 #: ../src/prefs.js:126
 msgid "Wind Speed Unit"
-msgstr ""
+msgstr "Unidad de velocidad"
 
 #: ../src/prefs.js:128
-#, fuzzy
 msgid "Pressure Unit"
-msgstr "Presión:"
+msgstr "Unidad de presión"
 
 #: ../src/prefs.js:130
 msgid "Position in Panel"
-msgstr ""
+msgstr "Posición en el panel"
 
 #: ../src/prefs.js:131
 msgid "Center"
-msgstr ""
+msgstr "Centro"
 
 #: ../src/prefs.js:131
 msgid "Right"
-msgstr ""
+msgstr "Derecha"
 
 #: ../src/prefs.js:131
 msgid "Left"
-msgstr ""
+msgstr "Izquierda"
 
 #: ../src/prefs.js:132
 msgid "Wind Direction by Arrows"
-msgstr ""
+msgstr "Dirección del viento con flechas"
 
 #: ../src/prefs.js:134
 msgid "Translate Conditions"
-msgstr ""
+msgstr "Traducir la condición"
 
 #: ../src/prefs.js:136
 msgid "Symbolic Icons"
-msgstr ""
+msgstr "Íconos simbólicos"
 
 #: ../src/prefs.js:138
 msgid "Temperature in Panel"
-msgstr "Temperatura:"
+msgstr "Temperatura en el panel"
 
 #: ../src/prefs.js:140
 msgid "Conditions in Panel"
-msgstr ""
+msgstr "Condición en el panel"
 
 #: ../src/prefs.js:277
 msgid "Name of the city"
-msgstr ""
+msgstr "Nombre de la ciudad"
 
 #: ../src/prefs.js:452
 #, python-format
 msgid "Remove %s ?"
-msgstr ""
+msgstr "Remover %s ?"
