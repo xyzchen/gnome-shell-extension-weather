@@ -4,7 +4,7 @@
 
 Currently, the weather report, including forecasts for today and tomorrow, is fetched from [Yahoo! Weather](http://weather.yahoo.com/).
 
-**GWeather support coming soon !**
+**GWeather support !** Check the [GWeather branch](https://github.com/Neroth/gnome-shell-extension-weather/tree/GWeather).
 
 ----
 
