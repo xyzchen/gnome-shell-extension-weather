@@ -507,7 +507,7 @@ Extends: Gtk.Box,
 	loadJsonAsync : function(url, fun, id)
 	{
         let here = this;
-        let message = new Soup.Message.new('GET', url);
+        let message = Soup.Message.new('GET', url);
 
 		if(typeof this.asyncSession == "undefined")
 		this.asyncSession = {};
