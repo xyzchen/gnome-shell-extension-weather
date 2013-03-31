@@ -1210,7 +1210,20 @@ const WeatherMenuButton = new Lang.Class({
 			break;
 		}
 
-	    let lastBuild = (this.lastBuildDate.getHours()%12)+":"+((this.lastBuildDate.getMinutes()<10)?"0":"")+this.lastBuildDate.getMinutes()+" "+((this.lastBuildDate.getHours() >= 12)?"pm":"am");
+		let dateTo12h = function(date)
+		{
+		let hours = (date.getHours()%12);
+			if(hours == 0)
+			hours = 12;
+
+		let minutes = ((date.getMinutes()<10)?"0":"")+date.getMinutes();
+
+		let amPm = ((date.getHours() >= 12)?"PM":"AM");
+
+		return String(hours+":"+minutes+" "+amPm);
+		};
+
+	    let lastBuild = dateTo12h(this.lastBuildDate);
 
 		if(this._clockFormat == "24h")
 		{
