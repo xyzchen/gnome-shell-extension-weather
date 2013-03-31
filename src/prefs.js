@@ -500,7 +500,7 @@ Extends: Gtk.Box,
 	let path = this.actual_city;
 		if(arguments[0])
 		path = arguments[0];
-	path = new Gtk.TreePath.new_from_string(String(path));
+	path = Gtk.TreePath.new_from_string(String(path));
 	this.treeview.get_selection().select_path(path);
 	},
 
