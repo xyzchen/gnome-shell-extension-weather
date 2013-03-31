@@ -279,7 +279,7 @@ Extends: Gtk.Box,
 	let entry = new Gtk.Entry();
 	let completion = new Gtk.EntryCompletion();
 	entry.set_completion(completion);
-	let completionModel = new Gtk.ListStore.new([GObject.TYPE_STRING]);
+	let completionModel = Gtk.ListStore.new([GObject.TYPE_STRING]);
 	completion.set_model(completionModel);
 	completion.set_text_column(0);
 	completion.set_popup_single_match(true);
