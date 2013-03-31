@@ -1225,6 +1225,12 @@ const WeatherMenuButton = new Lang.Class({
 
 	    let lastBuild = dateTo12h(this.lastBuildDate);
 
+	    sunrise = sunrise.replace("am","AM");
+	    sunrise = sunrise.replace("pm","PM");
+
+	    sunset = sunset.replace("am","AM");
+	    sunset = sunset.replace("pm","PM");
+
 		if(this._clockFormat == "24h")
 		{
 		sunrise = new Date("3 Mar 1999 "+sunrise);
