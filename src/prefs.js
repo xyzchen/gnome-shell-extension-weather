@@ -51,6 +51,7 @@ const WEATHER_ACTUAL_CITY_KEY = 'actual-city';
 const WEATHER_TRANSLATE_CONDITION_KEY = 'translate-condition';
 const WEATHER_USE_SYMBOLIC_ICONS_KEY = 'use-symbolic-icons';
 const WEATHER_SHOW_TEXT_IN_PANEL_KEY = 'show-text-in-panel';
+const WEATHER_SHOW_WIND_IN_PANEL_KEY = 'show-wind-in-panel';
 const WEATHER_POSITION_IN_PANEL_KEY = 'position-in-panel';
 const WEATHER_SHOW_COMMENT_IN_PANEL_KEY = 'show-comment-in-panel';
 const WEATHER_REFRESH_INTERVAL = 'refresh-interval';
@@ -139,6 +140,8 @@ Extends: Gtk.Box,
 	this.addSwitch("text_in_panel");
 	this.addLabel(_("Conditions in Panel"));
 	this.addSwitch("comment_in_panel");
+	this.addLabel(_("Wind in Panel"));
+	this.addSwitch("wind_in_panel");
 	},
 
 	refreshUI : function()
@@ -706,6 +709,19 @@ Extends: Gtk.Box,
 		if(!this.Settings)
 		this.loadConfig();
 	this.Settings.set_boolean(WEATHER_SHOW_TEXT_IN_PANEL_KEY,v);
+	},
+	get wind_in_panel()
+	{
+		if(!this.Settings)
+		this.loadConfig();
+	return this.Settings.get_boolean(WEATHER_SHOW_WIND_IN_PANEL_KEY);
+	},
+
+	set wind_in_panel(v)
+	{
+		if(!this.Settings)
+		this.loadConfig();
+	this.Settings.set_boolean(WEATHER_SHOW_WIND_IN_PANEL_KEY,v);
 	},
 
 	get position_in_panel()

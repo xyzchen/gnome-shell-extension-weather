@@ -63,6 +63,7 @@ const WEATHER_ACTUAL_CITY_KEY = 'actual-city';
 const WEATHER_TRANSLATE_CONDITION_KEY = 'translate-condition';
 const WEATHER_USE_SYMBOLIC_ICONS_KEY = 'use-symbolic-icons';
 const WEATHER_SHOW_TEXT_IN_PANEL_KEY = 'show-text-in-panel';
+const WEATHER_SHOW_WIND_IN_PANEL_KEY = 'show-wind-in-panel';
 const WEATHER_POSITION_IN_PANEL_KEY = 'position-in-panel';
 const WEATHER_SHOW_COMMENT_IN_PANEL_KEY = 'show-comment-in-panel';
 const WEATHER_REFRESH_INTERVAL = 'refresh-interval';
@@ -454,6 +455,20 @@ const WeatherMenuButton = new Lang.Class({
 		if(!this._settings)
 		this.loadConfig();
 	this._settings.set_boolean(WEATHER_SHOW_TEXT_IN_PANEL_KEY,v);
+	},
+
+	get _wind_in_panel()
+	{
+		if(!this._settings)
+		this.loadConfig();
+	return this._settings.get_boolean(WEATHER_SHOW_WIND_IN_PANEL_KEY);
+	},
+
+	set _wind_in_panel(v)
+	{
+		if(!this._settings)
+		this.loadConfig();
+	this._settings.set_boolean(WEATHER_SHOW_WIND_IN_PANEL_KEY,v);
 	},
 
 	get _position_in_panel()
@@ -1249,17 +1264,6 @@ const WeatherMenuButton = new Lang.Class({
 
             this._currentWeatherIcon.icon_name = this._weatherIcon.icon_name = iconname;
 
-	    let weatherInfoC = "";
-	    let weatherInfoT = "";
-
-		if (this._comment_in_panel)
-		weatherInfoC = comment;
-
-		if (this._text_in_panel)
-		weatherInfoT = parseFloat(temperature).toLocaleString() + ' ' + this.unit_to_unicode();
-
-	    this._weatherInfo.text = weatherInfoC + ((weatherInfoC && weatherInfoT) ? ", " : "") + weatherInfoT;
-
             this._currentWeatherSummary.text = comment + ", " + parseFloat(temperature).toLocaleString() + ' ' + this.unit_to_unicode();
             this._currentWeatherLocation.text = location;
             this._currentWeatherTemperature.text = parseFloat(chill).toLocaleString() + ' ' + this.unit_to_unicode();
@@ -1307,6 +1311,21 @@ const WeatherMenuButton = new Lang.Class({
             	this._currentWeatherWind.text = parseFloat(wind).toLocaleString() + ' ' + wind_unit;
             	else // i.e. wind > 0 && wind_direction
             	this._currentWeatherWind.text = wind_direction + ' ' + parseFloat(wind).toLocaleString() + ' ' + wind_unit;
+
+	    let weatherInfoC = "";
+	    let weatherInfoT = "";
+	    let weatherInfoW = "";
+
+		if (this._comment_in_panel)
+		weatherInfoC = comment;
+
+		if (this._text_in_panel)
+		weatherInfoT = parseFloat(temperature).toLocaleString() + ' ' + this.unit_to_unicode();
+
+		if (this._wind_in_panel)
+		weatherInfoW = this._currentWeatherWind.text;
+
+	    this._weatherInfo.text = weatherInfoC + ((weatherInfoC && weatherInfoT) ? ", " : "") + weatherInfoT + ((weatherInfoW && (weatherInfoC || weatherInfoT)) ? ", " : "") + weatherInfoW;
 
             // Refresh forecast
             for (let i = 0; i <= 1; i++) {

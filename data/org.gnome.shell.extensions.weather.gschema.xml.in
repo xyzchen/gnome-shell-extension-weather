@@ -80,6 +80,10 @@
       <default>false</default>
       <_summary>Conditions in Panel</_summary>
     </key>
+    <key name="show-wind-in-panel" type="b">
+      <default>false</default>
+      <_summary>Wind in Panel</_summary>
+    </key>
     <key name="position-in-panel" enum="org.gnome.shell.extensions.weather.position">
       <default>'center'</default>
       <_summary>Position in Panel</_summary>
