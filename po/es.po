@@ -8,39 +8,40 @@ msgstr ""
 "Project-Id-Version: 3.0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-11 00:47+0100\n"
-"PO-Revision-Date: 2013-03-27 16:24-0300\n"
-"Last-Translator: Cristian Beroiza <cberoiza@gmail.com>\n"
-"Language-Team:  Español; Castellano <zodiac_es@yahoo.es>\n"
+"PO-Revision-Date: 2013-04-20 15:27-0600\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
+"Language-Team: Español; Castellano <zodiac_es@yahoo.es>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../src/extension.js:128
 msgid "..."
-msgstr "..."
+msgstr "…"
 
 #: ../src/extension.js:208
 msgid "Locations"
-msgstr "Lugares"
+msgstr "Ubicaciones"
 
 #: ../src/extension.js:212
 msgid "Reload Weather Information"
-msgstr "Recargar información del clima"
+msgstr "Recargar la información del clima"
 
 #: ../src/extension.js:216
 msgid "Weather Settings"
-msgstr "Configuraciones del clima"
+msgstr "Configuración del clima"
 
 #: ../src/extension.js:242
 #, python-format
 msgid "Schema \"%s\" not found."
-msgstr "El esquema \"%s\" no ha sido encontrado."
+msgstr "No se encontró el esquema «%s»."
 
 #: ../src/extension.js:523 ../src/prefs.js:756
 msgid "Invalid city"
-msgstr "Ciudad inválida"
+msgstr "Ciudad no válida"
 
 #: ../src/extension.js:738
 msgid "Tornado"
@@ -220,23 +221,23 @@ msgstr "Viento suave"
 
 #: ../src/extension.js:884
 msgid "Light breeze"
-msgstr "Ventisca suave"
+msgstr "Brisa ligera"
 
 #: ../src/extension.js:887
 msgid "Gentle breeze"
-msgstr "Ventisca suave"
+msgstr "Brisa suave"
 
 #: ../src/extension.js:890
 msgid "Moderate breeze"
-msgstr "Ventisca moderada"
+msgstr "Brisa moderada"
 
 #: ../src/extension.js:893
 msgid "Fresh breeze"
-msgstr "Ventisca suave"
+msgstr "Brisa suave"
 
 #: ../src/extension.js:896
 msgid "Strong breeze"
-msgstr "Ventisa fuerte"
+msgstr "Brisa fuerte"
 
 #: ../src/extension.js:899
 msgid "Moderate gale"
@@ -325,7 +326,7 @@ msgstr "Ayer"
 #: ../src/extension.js:1210 ../src/extension.js:1339
 #, python-format
 msgid "%s days ago"
-msgstr "%s dias atrás"
+msgstr "Hace %s días"
 
 #: ../src/extension.js:1331
 msgid "Today"
@@ -342,19 +343,19 @@ msgstr "En %s dias"
 
 #: ../src/extension.js:1371
 msgid "Loading current weather ..."
-msgstr "Cargando clima actual ..."
+msgstr "Cargando el clima actual…"
 
 #: ../src/extension.js:1372
 msgid "Loading future weather ..."
-msgstr "Cargando clima futuro ..."
+msgstr "Cargando el clima futuro…"
 
 #: ../src/extension.js:1405
 msgid "Loading ..."
-msgstr "Cargando ..."
+msgstr "Cargando…"
 
 #: ../src/extension.js:1408
 msgid "Please wait"
-msgstr "Porfavor espere"
+msgstr "Espere un momento"
 
 #: ../src/extension.js:1453
 msgid "Feels like:"
@@ -410,7 +411,7 @@ msgstr "Traducir la condición"
 
 #: ../src/prefs.js:136
 msgid "Symbolic Icons"
-msgstr "Íconos simbólicos"
+msgstr "Iconos monocromáticos"
 
 #: ../src/prefs.js:138
 msgid "Temperature in Panel"
@@ -427,4 +428,4 @@ msgstr "Nombre de la ciudad"
 #: ../src/prefs.js:452
 #, python-format
 msgid "Remove %s ?"
-msgstr "Remover %s ?"
+msgstr "¿Quiere eliminar %s?"
