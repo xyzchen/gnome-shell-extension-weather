@@ -323,7 +323,7 @@ Extends: Gtk.Box,
 			if(!woeid)
 			return 0;
 
-			that.loadJsonAsync(encodeURI('http://query.yahooapis.com/v1/public/yql?q=select woeid from geo.places where woeid = "'+woeid+'" limit 1&format=json'),function()
+			that.loadJsonAsync(encodeURI('https://query.yahooapis.com/v1/public/yql?q=select woeid from geo.places where woeid = "'+woeid+'" limit 1&format=json'),function()
 			{
 			d.sensitive = 0;
 				if(typeof arguments[0].query == "undefined")
@@ -343,7 +343,7 @@ Extends: Gtk.Box,
 		{
 		let location = entry.get_text();
 			if(testLocation(location) == 0)
-			that.loadJsonAsync(encodeURI('http://query.yahooapis.com/v1/public/yql?q=select woeid,name,admin1,country from geo.places where text = "*'+location+'*" or text = "'+location+'"&format=json'),function()
+			that.loadJsonAsync(encodeURI('https://query.yahooapis.com/v1/public/yql?q=select woeid,name,admin1,country from geo.places where text = "*'+location+'*" or text = "'+location+'"&format=json'),function()
 			{
 				if(!arguments[0])
 				return 0;
@@ -416,7 +416,7 @@ Extends: Gtk.Box,
 				if(!woeid)
 				return 0;
 
-				that.loadJsonAsync(encodeURI('http://query.yahooapis.com/v1/public/yql?format=json&q=select woeid,name,admin1,country from geo.places where woeid = "'+woeid+'" limit 1'),function()
+				that.loadJsonAsync(encodeURI('https://query.yahooapis.com/v1/public/yql?format=json&q=select woeid,name,admin1,country from geo.places where woeid = "'+woeid+'" limit 1'),function()
 				{
 				let city = arguments[0].query;
 					if(Number(city.count) > 0)

@@ -589,7 +589,7 @@ const WeatherMenuButton = new Lang.Class({
 		{
 			if(!this.extractWoeid(cities[a]))
 			{
-				this.load_json_async(encodeURI("http://query.yahooapis.com/v1/public/yql?format=json&q=select woeid,name,admin1,country from geo.places where text = '"+cities[a]+"' limit 1"),function()
+				this.load_json_async(encodeURI("https://query.yahooapis.com/v1/public/yql?format=json&q=select woeid,name,admin1,country from geo.places where text = '"+cities[a]+"' limit 1"),function()
 				{
 				let city = arguments[0].query;
 					if(typeof city == "object" && typeof city.results == "object")
@@ -644,11 +644,11 @@ const WeatherMenuButton = new Lang.Class({
     },
 
     get_weather_url: function() {
-        return encodeURI('http://query.yahooapis.com/v1/public/yql?format=json&q=select * from weather.forecast where woeid = '+this.extractWoeid(this._city)+' and u="f"');
+        return encodeURI('https://query.yahooapis.com/v1/public/yql?format=json&q=select * from weather.forecast where woeid = '+this.extractWoeid(this._city)+' and u="f"');
     },
 
     get_weather_icon: function(code) {
-        /* see http://developer.yahoo.com/weather/#codetable */
+        /* see //developer.yahoo.com/weather/#codetable */
         /* fallback icons are: weather-clear-night weather-clear weather-few-clouds-night weather-few-clouds weather-fog weather-overcast weather-severe-alert weather-showers weather-showers-scattered weather-snow weather-storm */
         switch (parseInt(code, 10)) {
             case 0:/* tornado */
