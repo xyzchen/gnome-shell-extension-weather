@@ -2,21 +2,24 @@
 # Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-shell-extension-weather package.
 # Piotr Sokół <psokol@jabster.pl>, 2011, 2012.
+# Jakub <Chrzanowski>, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 3.0\n"
+"Project-Id-Version: 3.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-11 00:47+0100\n"
-"PO-Revision-Date: 2012-10-30 18:37+0100\n"
-"Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
+"PO-Revision-Date: 2013-06-04 09:35+0200\n"
+"Last-Translator: Jakub <Chrzanowski>\n"
 "Language-Team: polski <>\n"
 "Language: po\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2012-10-30 09:44+0000\n"
-"X-Generator: Launchpad (build 16206)\n"
+"X-Generator: Gtranslator 2.91.6\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
 #: ../src/extension.js:128
 msgid "..."
@@ -37,7 +40,7 @@ msgstr "Ustawienia pogody"
 #: ../src/extension.js:242
 #, python-format
 msgid "Schema \"%s\" not found."
-msgstr "Nie odnaleziono schematu „%s”."
+msgstr "Nie odnaleziono schematu \"%s\"."
 
 #: ../src/extension.js:523 ../src/prefs.js:756
 msgid "Invalid city"
@@ -209,10 +212,9 @@ msgstr "Lokalne burze z przelotnymi opadami deszczu"
 
 #: ../src/extension.js:831
 msgid "Not available"
-msgstr "Nie dostępne"
+msgstr "Niedostępne"
 
 #: ../src/extension.js:878
-#, fuzzy
 msgid "Calm"
 msgstr "Cisza"
 
@@ -258,7 +260,7 @@ msgstr "Sztorm"
 
 #: ../src/extension.js:911
 msgid "Violent storm"
-msgstr ""
+msgstr "Gwałtowna burza"
 
 #: ../src/extension.js:919
 msgid "Sunday"
@@ -290,11 +292,11 @@ msgstr "Sobota"
 
 #: ../src/extension.js:926
 msgid "N"
-msgstr "pn."
+msgstr "płn."
 
 #: ../src/extension.js:926
 msgid "NE"
-msgstr "pn.-wsch."
+msgstr "płn.-wsch."
 
 #: ../src/extension.js:926
 msgid "E"
@@ -302,15 +304,15 @@ msgstr "wsch."
 
 #: ../src/extension.js:926
 msgid "SE"
-msgstr "pd.-wsch."
+msgstr "płd.-wsch."
 
 #: ../src/extension.js:926
 msgid "S"
-msgstr "pd."
+msgstr "płd."
 
 #: ../src/extension.js:926
 msgid "SW"
-msgstr "pd.-zach."
+msgstr "płd.-zach."
 
 #: ../src/extension.js:926
 msgid "W"
@@ -318,7 +320,7 @@ msgstr "zach."
 
 #: ../src/extension.js:926
 msgid "NW"
-msgstr "pn.-zach."
+msgstr "płn.-zach."
 
 #: ../src/extension.js:1208 ../src/extension.js:1337
 msgid "Yesterday"
@@ -359,7 +361,6 @@ msgid "Please wait"
 msgstr "Proszę czekać"
 
 #: ../src/extension.js:1453
-#, fuzzy
 msgid "Feels like:"
 msgstr "Odczuwalna temperatura:"
 
@@ -430,7 +431,7 @@ msgstr "Nazwa miasta"
 #: ../src/prefs.js:452
 #, python-format
 msgid "Remove %s ?"
-msgstr "Usunąć %s?"
+msgstr "Usunąć %s ?"
 
 #~ msgid "Whole gale"
 #~ msgstr "Bardzo silny wicher"
