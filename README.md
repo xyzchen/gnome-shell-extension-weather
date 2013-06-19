@@ -19,14 +19,22 @@ That's it !
 
 After the installation, restart GNOME Shell (`Alt`+`F2`, `r`, `Enter`) and enable the extension through *gnome-tweak-tool*.
 
-### [Ubuntu, Mint, Debian and derivatives](https://launchpad.net/~gnome-shell-extensions/+archive/ppa/+packages)
+### [Ubuntu, Mint, and derivatives](https://launchpad.net/~gnome-shell-extensions/+archive/ppa/+packages)
 
 Add the PPA *ppa:gnome-shell-extensions* to your source list, update the package list and install *gnome-shell-extension-weather*:
 
 	sudo add-apt-repository ppa:gnome-shell-extensions
 	sudo apt-get update
 	sudo apt-get install gnome-shell-extension-weather
-	
+
+### [Debian](http://packages.debian.org/source/unstable/gnome-shell-extension-weather)
+
+For Debian "Wheezy" 7, add the (official backports archive)[http://backports.debian.org/Instructions/] to your sources list. This step is not needed for Debian "Jessie" or "Sid".
+
+Then install the package through APT:
+
+  sudo apt-get install gnome-shell-extension-weather
+
 ### [Fedora](http://rpmfusion.org/)
 
 Packages for Fedora are available in the [RPM Fusion](http://rpmfusion.org/) repositories. If these are not enabled on your system, please install them through the following command (root password required):
@@ -46,12 +54,6 @@ Download the package from AUR, make and install it:
 	tar xvzf gnome-shell-extension-weather-git.tar.gz
 	cd gnome-shell-extension-weather-git && makepkg -si
 	
-### [Debian (Sid)](http://packages.debian.org/sid/gnome-shell-extension-weather)
-
-Package is in the Debian Sid (unstable) repositories: **Use it at your own risk!**.
-
-	sudo apt-get install gnome-shell-extension-weather
-
 ### [ALT Linux](http://packages.altlinux.org/en/Sisyphus/srpms/gnome-shell-extension-weather)
 
 Install *gnome-shell-extension-weather* with apt-rpm from Sisyphus:
