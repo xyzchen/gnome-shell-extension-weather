@@ -6,6 +6,8 @@ Currently, the weather report, including forecasts for today and tomorrow, is fe
 
 **GWeather support !** Check the [GWeather branch](https://github.com/Neroth/gnome-shell-extension-weather/tree/GWeather).
 
+Contact the author : [Neroth (Christian METZLER)](https://plus.google.com/u/0/106579473281691119257).
+
 ----
 
 # Installation
