@@ -266,182 +266,182 @@ msgstr "城市名"
 msgid "Remove %s ?"
 msgstr "移除 %s ？"
 
-#~ msgid "Please wait"
-#~ msgstr "请等待"
+msgid "Please wait"
+msgstr "请等待"
 
-#~ msgid "Loading ..."
-#~ msgstr "正在加载 ..."
+msgid "Loading ..."
+msgstr "正在加载 ..."
 
-#~ msgid "Invalid city"
-#~ msgstr "无效的城市"
+msgid "Invalid city"
+msgstr "无效的城市"
 
-#~ msgid "..."
-#~ msgstr "..."
+msgid "..."
+msgstr "..."
 
-#~ msgid "Schema \"%s\" not found."
-#~ msgstr "没有找到设定（Schema） \"%s\" "
+msgid "Schema \"%s\" not found."
+msgstr "没有找到设定（Schema） \"%s\" "
 
-#~ msgid "Tornado"
-#~ msgstr "龙卷风"
+msgid "Tornado"
+msgstr "龙卷风"
 
-#~ msgid "Tropical storm"
-#~ msgstr "热带风暴"
+msgid "Tropical storm"
+msgstr "热带风暴"
 
-#~ msgid "Hurricane"
-#~ msgstr "飓风"
+msgid "Hurricane"
+msgstr "飓风"
 
-#~ msgid "Severe thunderstorms"
-#~ msgstr "雷暴"
+msgid "Severe thunderstorms"
+msgstr "雷暴"
 
-#~ msgid "Thunderstorms"
-#~ msgstr "雷阵雨"
+msgid "Thunderstorms"
+msgstr "雷阵雨"
 
-#~ msgid "Mixed rain and snow"
-#~ msgstr "雨夹雪"
+msgid "Mixed rain and snow"
+msgstr "雨夹雪"
 
-#~ msgid "Mixed rain and sleet"
-#~ msgstr "雨夹雪"
+msgid "Mixed rain and sleet"
+msgstr "雨夹雪"
 
-#~ msgid "Mixed snow and sleet"
-#~ msgstr "雨夹雪"
+msgid "Mixed snow and sleet"
+msgstr "雨夹雪"
 
-#~ msgid "Freezing drizzle"
-#~ msgstr "冻雨"
+msgid "Freezing drizzle"
+msgstr "冻雨"
 
-#~ msgid "Drizzle"
-#~ msgstr "小雨"
+msgid "Drizzle"
+msgstr "小雨"
 
-#~ msgid "Freezing rain"
-#~ msgstr "冻雨"
+msgid "Freezing rain"
+msgstr "冻雨"
 
-#~ msgid "Showers"
-#~ msgstr "阵雨"
+msgid "Showers"
+msgstr "阵雨"
 
-#~ msgid "Snow flurries"
-#~ msgstr "阵雪"
+msgid "Snow flurries"
+msgstr "阵雪"
 
-#~ msgid "Light snow showers"
-#~ msgstr "小雪"
+msgid "Light snow showers"
+msgstr "小雪"
 
-#~ msgid "Blowing snow"
-#~ msgstr "暴雪"
+msgid "Blowing snow"
+msgstr "暴雪"
 
-#~ msgid "Snow"
-#~ msgstr "雪"
+msgid "Snow"
+msgstr "雪"
 
-#~ msgid "Hail"
-#~ msgstr "冰雹"
+msgid "Hail"
+msgstr "冰雹"
 
-#~ msgid "Sleet"
-#~ msgstr "雨夹雪"
+msgid "Sleet"
+msgstr "雨夹雪"
 
-#~ msgid "Dust"
-#~ msgstr "扬沙"
+msgid "Dust"
+msgstr "扬沙"
 
-#~ msgid "Foggy"
-#~ msgstr "雾"
+msgid "Foggy"
+msgstr "雾"
 
-#~ msgid "Haze"
-#~ msgstr "霾"
+msgid "Haze"
+msgstr "霾"
 
-#~ msgid "Smoky"
-#~ msgstr "烟雾"
+msgid "Smoky"
+msgstr "烟雾"
 
-#~ msgid "Blustery"
-#~ msgstr "大风"
+msgid "Blustery"
+msgstr "大风"
 
-#~ msgid "Windy"
-#~ msgstr "刮风"
+msgid "Windy"
+msgstr "刮风"
 
-#~ msgid "Cold"
-#~ msgstr "冷"
+msgid "Cold"
+msgstr "冷"
 
-#~ msgid "Cloudy"
-#~ msgstr "多云"
+msgid "Cloudy"
+msgstr "多云"
 
-#~ msgid "Mostly cloudy"
-#~ msgstr "多云"
+msgid "Mostly cloudy"
+msgstr "多云"
 
-#~ msgid "Partly cloudy"
-#~ msgstr "晴转多云 "
+msgid "Partly cloudy"
+msgstr "晴转多云 "
 
-#~ msgid "Clear"
-#~ msgstr "晴"
+msgid "Clear"
+msgstr "晴"
 
-#~ msgid "Sunny"
-#~ msgstr "晴"
+msgid "Sunny"
+msgstr "晴"
 
-#~ msgid "Fair"
-#~ msgstr "晴"
+msgid "Fair"
+msgstr "晴"
 
-#~ msgid "Mixed rain and hail"
-#~ msgstr "冰雹"
+msgid "Mixed rain and hail"
+msgstr "冰雹"
 
-#~ msgid "Hot"
-#~ msgstr "炎热"
+msgid "Hot"
+msgstr "炎热"
 
-#~ msgid "Isolated thunderstorms"
-#~ msgstr "局地雷阵雨"
+msgid "Isolated thunderstorms"
+msgstr "局地雷阵雨"
 
-#~ msgid "Scattered thunderstorms"
-#~ msgstr "零星雷阵雨"
+msgid "Scattered thunderstorms"
+msgstr "零星雷阵雨"
 
-#~ msgid "Scattered showers"
-#~ msgstr "零星小雪"
+msgid "Scattered showers"
+msgstr "零星小雪"
 
-#~ msgid "Heavy snow"
-#~ msgstr "大雪"
+msgid "Heavy snow"
+msgstr "大雪"
 
-#~ msgid "Scattered snow showers"
-#~ msgstr "零星阵雪"
+msgid "Scattered snow showers"
+msgstr "零星阵雪"
 
-#~ msgid "Thundershowers"
-#~ msgstr "雷阵雨"
+msgid "Thundershowers"
+msgstr "雷阵雨"
 
-#~ msgid "Snow showers"
-#~ msgstr "阵雪"
+msgid "Snow showers"
+msgstr "阵雪"
 
-#~ msgid "Isolated thundershowers"
-#~ msgstr "局地雷阵雨"
+msgid "Isolated thundershowers"
+msgstr "局地雷阵雨"
 
-#~ msgid "Not available"
-#~ msgstr "不可用"
+msgid "Not available"
+msgstr "不可用"
 
-#~ msgid "Calm"
-#~ msgstr "风平浪静"
+msgid "Calm"
+msgstr "风平浪静"
 
-#~ msgid "Light air"
-#~ msgstr "轻微气流"
+msgid "Light air"
+msgstr "轻微气流"
 
-#~ msgid "Light breeze"
-#~ msgstr "轻微风"
+msgid "Light breeze"
+msgstr "轻微风"
 
-#~ msgid "Gentle breeze"
-#~ msgstr "温和微风"
+msgid "Gentle breeze"
+msgstr "温和微风"
 
-#~ msgid "Moderate breeze"
-#~ msgstr "中微风"
+msgid "Moderate breeze"
+msgstr "中微风"
 
-#~ msgid "Fresh breeze"
-#~ msgstr "清新微风"
+msgid "Fresh breeze"
+msgstr "清新微风"
 
-#~ msgid "Strong breeze"
-#~ msgstr "强微风"
+msgid "Strong breeze"
+msgstr "强微风"
 
-#~ msgid "Moderate gale"
-#~ msgstr "中度风"
+msgid "Moderate gale"
+msgstr "中度风"
 
-#~ msgid "Fresh gale"
-#~ msgstr "清风"
+msgid "Fresh gale"
+msgstr "清风"
 
-#~ msgid "Strong gale"
-#~ msgstr "强风"
+msgid "Strong gale"
+msgstr "强风"
 
-#~ msgid "Storm"
-#~ msgstr "风暴"
+msgid "Storm"
+msgstr "风暴"
 
-#~ msgid "Violent storm"
-#~ msgstr "强风暴"
+msgid "Violent storm"
+msgstr "强风暴"
 
 #~ msgid "Sunday"
 #~ msgstr "星期日"
